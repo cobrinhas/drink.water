@@ -1,0 +1,3 @@
+
+# every 30 minutes, drink water 
+*/30 * * * * notify_drink_water
