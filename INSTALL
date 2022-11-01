@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+alias_source=~/.bash_aliases
+source $alias_source
+
+alias notify_drink_water="exec $(pwd)/run.bash"
+
+alias > $alias_source
