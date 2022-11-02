@@ -7,7 +7,7 @@ replace_notification_id=0
 icon_data="0"
 actions='[]'
 hints='{}'
-expire_timeout=5000
+expire_timeout=0
 
 function send_notification() {
     gdbus call --session \
