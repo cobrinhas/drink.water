@@ -6,3 +6,5 @@ source $alias_source
 alias notify_drink_water="exec $(pwd)/run.bash"
 
 alias > $alias_source
+
+crontab cronfile
