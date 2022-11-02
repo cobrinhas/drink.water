@@ -9,6 +9,10 @@ actions='[]'
 hints='{}'
 expire_timeout=0
 
+guid=1000
+
+export XDG_RUNTIME_DIR="/run/user/$guid"
+
 function send_notification() {
     gdbus call --session \
         --dest=org.freedesktop.Notifications \
