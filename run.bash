@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+script_path=$(dirname $(realpath "$0"))
+
 title="Time's up!"
 subtitle="Drink water 🚰"
 body="100ml is fine :)"
@@ -8,7 +10,7 @@ icon_data="0"
 actions='[]'
 hints='{}'
 expire_timeout=0
-sound_path='sounds/complete.oga'
+sound_path="$script_path/sounds/complete.oga"
 
 guid=1000
 
