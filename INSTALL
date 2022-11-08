@@ -7,4 +7,4 @@ alias notify_drink_water="exec $(pwd)/run.bash"
 
 alias > $alias_source
 
-crontab cronfile
+{ crontab -l; cat cronfile; } | crontab -
