@@ -11,3 +11,9 @@ Also, if you have `paplay` command available (Pulse Audio), it shall play a noti
 ```bash
 ./INSTALL
 ```
+
+## Download
+
+```bash
+wget "https://raw.githubusercontent.com/cobrinhas/drink.water/master/DOWNLOAD.bash" | sh
+```
